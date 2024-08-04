@@ -19,10 +19,10 @@ owo-colors = "3.5.0"
 clap = { version = "4.0.29", features = ["derive"] }
 
 # Postgres interaction
-postgres = { version = "0.19.4" }
+postgres = { version = "0.19.8" }
 
 # serde
 ## Test fixtures ser/de
-serde = { version = "1.0.148", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
 ## Read/write fixture files
 toml = "0.8.2"

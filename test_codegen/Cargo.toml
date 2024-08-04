@@ -15,25 +15,25 @@ cornucopia_async = { path = "../crates/client_async", features = [
 ] }
 
 # async
-futures = "0.3.25"
+futures = "0.3.30"
 
 # rust-postgres interaction
-postgres = { version = "0.19.4", features = [
+postgres = { version = "0.19.8", features = [
     "with-serde_json-1",
     "with-time-0_3",
     "with-uuid-1",
     "with-eui48-1",
 ] }
-tokio-postgres = { version = "0.7.7", features = [
+tokio-postgres = { version = "0.7.11", features = [
     "with-serde_json-1",
     "with-time-0_3",
     "with-uuid-1",
     "with-eui48-1",
 ] }
-postgres-types = { version = "0.2.4", features = ["derive"] }
+postgres-types = { version = "0.2.7", features = ["derive"] }
 
 # serde
-serde = { version = "1.0.152", features = ["derive"] }
+serde = { version = "1.0.204", features = ["derive"] }
 
 # extra types
 serde_json = { version = "1.0.91", features = ["raw_value"] }
